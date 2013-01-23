@@ -1,8 +1,0 @@
-ORIG_PN="XPlanet"
-inherit rox
-
-HOMEPAGE="http://www.kerofin.demon.co.uk/rox/xplanet.html"
-SRC_URI="http://www.kerofin.demon.co.uk/rox/${ORIG_PN}-${PV}.tar.gz"
-SRC_DIR=.
-
-ROX_APP=${ORIG_PN}

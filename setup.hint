@@ -1,5 +1,0 @@
-category: ROX
-requires: python rox-lib2 xplanet
-sdesc: "ROX Xplanet wrapper"
-ldesc: "XPlanet is a wrapper for xplanet for the ROX desktop. Its most 
-useful mode is as a backdrop application."

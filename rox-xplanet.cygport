@@ -1,0 +1,17 @@
+ORIG_PN="XPlanet"
+inherit rox
+
+NAME="rox-xplanet"
+VERSION=0.0.2
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX Xplanet wrapper"
+DESCRIPTION="XPlanet is a wrapper for xplanet for the ROX desktop. Its most
+useful mode is as a backdrop application."
+HOMEPAGE="http://www.kerofin.demon.co.uk/rox/xplanet.html"
+SRC_URI="http://www.kerofin.demon.co.uk/rox/${ORIG_PN}-${PV}.tar.gz"
+SRC_DIR=.
+
+REQUIRES="xplanet"
+
+ROX_APP=${ORIG_PN}
